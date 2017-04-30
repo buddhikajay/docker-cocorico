@@ -31,7 +31,7 @@ services:
             - cocorico-db-mongo
             - cocorico-db-mysql
         ports:
-            - '80'
+            - '82:80'
         volumes:
             - './cocorico:/var/www/html'
             - './apache2.conf:/etc/apache2/apache2.conf'
